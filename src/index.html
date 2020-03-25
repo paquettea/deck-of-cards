@@ -23,11 +23,9 @@
 
     <div id="table" class="table">
       <div v-for="(player, i) in players">
-        <div class="player">
-          {{ player.name }} - {{ player.stack }}$ 
-          <button class="delete" @click="removePlayer(i)">X</button>
-        </div>
+        <player :name="player.name" :starting-stack="player.stack" ref="playersRef"></player>
       </div>
+      <button class="btn-action start" @click="startHand()" v-if="players.length > 0">Start hand</button>
     </div>
 
 
