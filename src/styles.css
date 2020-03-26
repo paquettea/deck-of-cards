@@ -70,3 +70,26 @@
   left: 50%;
   transform: translate(-50%, 0);
 }
+
+.player {
+  margin-bottom: 20px;
+}
+
+.next-to-act {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -6px);
+  background: yellow;
+}
+
+.status {
+  color: #0b462b;
+  font-size: 12px;
+  position: relative;
+  top: -2px;
+}
