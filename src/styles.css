@@ -1,0 +1,95 @@
+.players-box {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 250px;
+  min-height: 200px;
+  background: white;
+  padding: 20px;
+}
+
+.players-box .title {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.players-box input {
+  width: 100%;
+  padding: 4px 12px;
+  font-size: 18px;
+  margin: 7px 0;
+}
+
+.players-box input[type="submit"] {
+  margin-top: 15px;
+}
+
+.player {
+  min-width: 200px;
+  position: relative;
+  padding-right: 30px;
+}
+
+.table {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.delete {
+  background: #056133;
+  padding: 3px 6px;
+  border: none;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 3px;
+}
+
+.delete:hover {
+  background: #033c1f;
+}
+
+.actions {
+  padding-top: 20px;
+}
+
+.btn-action {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 5px;
+  min-width: 60px;
+  text-align: center;
+  margin: 0 20px 0 0;
+}
+
+.start {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.player {
+  margin-bottom: 20px;
+}
+
+.next-to-act {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -6px);
+  background: yellow;
+}
+
+.status {
+  color: #0b462b;
+  font-size: 12px;
+  position: relative;
+  top: -2px;
+}
